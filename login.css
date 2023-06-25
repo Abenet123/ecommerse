@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width:100% ;
+    height: 100vh;
+    background:radial-gradient(#ffffff, #f7b9b9);
+    background-position: center;
+    background-size: cover;
+    
+}
+.main{
+    width: 500px;
+    height: 400px;
+    background:linear-gradient(#c5d5cb, #9fa8a3, #e3e0cf);
+    top: 50%;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    border: none;
+
+}
+.image{
+    width: 400px;
+    height: 400px;
+    top: 28.5%; 
+    left: 37%;
+    margin-left: 7px;
+    transform: translate(-50%, -40px);
+    position: absolute;
+    background-color: white;
+  
+    border:none;
+
+}
+.All{
+    
+    margin-top: 120px;
+}
+.main h1{
+    font-family: sans-serif;
+    color: rgb(33, 135, 72);
+    margin-top: 60px;
+    margin-left: 50px;
+}
+h1 span{
+    color: rgb(25, 136, 205);
+}
+.lower{
+    margin-left: 50px;
+    font-size: 20px;
+    font-family: sans-serif;
+    color: rgb(33, 135, 72);
+}
+.info{
+    margin-top: 30px;
+    margin-left: 60px;
+}
+.input{
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid rgb(33, 135, 72) ;
+}
+.password{
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    border: 1px solid rgb(33, 135, 72) ;
+}
+.forget{
+    margin-left: 300px;
+    margin-top: -20px;
+    color: rgb(33, 135, 72);
+    font-size: 15px;
+}
+.check{
+    margin-left: 60px;  
+    margin-top: 30px;
+}
+.me{
+    margin-left: 80px;
+    margin-top: -20px;
+    color: rgb(33, 135, 72);
+    font-size: 15px;
+}
+.btn{
+    margin-top: 20px;
+    margin-left: 200px;
+    width: 80px;
+    height: 30px;
+    color: #fff;
+    background-color:rgb(33, 135, 72);
+    border: none;
+    cursor: pointer;
+}
+.signup{
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.signup a{
+    text-decoration: none;
+    color: rgb(13, 124, 235);
+}

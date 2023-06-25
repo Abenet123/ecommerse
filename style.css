@@ -1,0 +1,434 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+nav ul{
+    list-style-type: none;
+    
+}
+nav ul li{
+    display: inline-block;
+    text-decoration: none;
+    margin-right: 20px;
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    padding: 0px 20px;
+    
+}
+.row{
+    display: flex;
+    align-items: center;
+}
+ .col-2 img{
+    width: 700px;
+    margin-left: 150px;
+    
+}
+.col-1 h1 {
+    margin-left: 100px;
+    font-size: 50px;
+    line-height: 50px;
+    margin-bottom:20px ;
+}
+.col-1 p{
+    font-size: 40px;
+    font-family: sans-serif;
+    color: rgb(33, 135, 72);
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: #ff523b;
+    margin-left: 100px;
+    color: #fff;
+    
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background:radial-gradient(orange, white) ;
+    background-position: center;
+    background-size: cover;
+    
+    /* background: radial-gradient(#ffffff, #f7b9b9); */
+}
+.categories{
+   height: 60vh;
+}
+.feature-list{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 270px;
+    transition: transform 2s;
+
+}
+.feature-img1{
+    
+}
+.feature-products{
+    height: 80vh;
+}
+.feature-list img{
+    width: 300px;
+    margin-left: 20px;
+
+}
+.feature-list img:hover{
+    transform: translateY(-5px);
+}
+.product-list{
+    display: flex;
+    align-items: center;
+    margin-left: 270px;
+    margin-top: 50px;
+}
+.product-list img{
+    width: 220px;
+    margin-left: 20px;
+    border-radius: 10px;
+}
+.feature-products h2{
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-left: 580px;
+    margin-bottom: 100px;
+}
+.list{
+    margin-left: 20px;
+}
+.list h4{
+    font-weight:lighter ;
+}
+.ball{
+    height: 90vh;
+    background: radial-gradient(#ffffff, #f7b9b9);
+    padding: 50px 0px;
+    margin-top: 160px;
+}
+.brand-ball{
+    margin-top: 70px;
+    margin-left: 300px;
+    display: flex;
+    align-items: center;
+}
+.brand img{
+    width: 300px;
+}
+
+
+.description h1{
+    font-size: 50px;
+    margin-left: 100px;
+}
+.description p{
+    font-size: 13px;
+    margin-left: 200px;
+}
+.description small{
+    font-size: 23px;
+    margin-left: 100px;
+}
+.buy{
+    padding: 10px 20px;
+    background-color: #ff523b;
+    margin-left: 100px;
+    color: #fff;
+}
+.test{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 100px;
+    margin-left: 680px;
+    margin-bottom: 100px;
+    }
+.relate{
+    font-family: sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-left: 680px;
+
+}    
+
+.testimonial{
+    height: 50vh;
+}
+.comments{
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 155px;
+
+    
+}
+
+
+.idea1{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 350px;
+    margin-left: 100px;
+    background-color: #fff;
+    width: 300px;
+    box-shadow: 0px 0px 20px 0px rgba(110, 80, 80, 0.1);
+}
+.idea2{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 350px;
+    margin-right: 50px;
+    margin-left: 50px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(110, 80, 80, 0.1);
+    width: 300px;
+}
+.idea3{
+    padding-left: 20px;
+    padding-right: 20px;
+    height: 350px;
+    background-color: #fff;
+    box-shadow: 0px 0px 20px 0px rgba(110, 80, 80, 0.1);
+    width: 300px;
+    
+}
+
+.user1 img{
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 90px;
+}
+.user2 img{
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 90px;
+
+}
+.user3 img{
+    width: 60px;
+    border-radius: 100%;
+    margin-left: 90px;
+
+}
+.rate1, .rate2, .rate3{
+    margin-top: 0px;
+    margin-left: 70px;
+}
+.idea1 small, .idea2 small, .idea3 small{
+    margin-left: 80px;
+    font-size: 15px;
+    font-weight: bold;
+}
+.quote1{
+    margin-top: 50px;
+    margin-left: 120px;
+}
+/* ***********companies logos*********** */
+.payment{
+    margin-left: 43%;
+    font-family:sans-serif;
+    font-size: 30px;
+    color: green;
+    margin-top: 50px;
+}
+.comp-logs{
+    margin: 40px;
+    margin-left: -60px; 
+    
+}
+.logos{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 350px;
+}
+.names img{
+    width: 160px; 
+    cursor: pointer;
+    /* filter: grayscale(100%);  to blur the logos   888888888*/ 
+}
+/* .names img:hover{
+    filter: grayscale(0%);------------------> to blur
+} */
+/**************************** footer************************* */
+
+.footer{
+    height: 35vh;
+    background: #000;
+    color: #8a8a8a;
+    padding: 20px 0px 20px;
+    font-size: 14px;
+}
+.footer hr{
+    background: #b5b5b5;
+    height:0.5px;
+   margin-top: 20px;
+   margin-left: 50px;
+   width: 1400px;
+}
+.copyright{
+    margin-top: 10px;
+    margin-left: 40%;
+}
+
+.bottom{
+    display: flex;
+    align-items: center;
+    margin-top: 40px;
+}
+.part1{
+    margin-left: 100px;
+}
+.part1 h3{
+    color: white;
+}
+.part1 p{
+    margin-top: 10px;
+}
+.part2{
+    margin-left: 200px;
+    
+}
+.part2 img{
+    margin-left: 20px;
+    width: 250px;
+}
+.part2 p{
+    margin-left: -40px;
+}
+.p2{
+    font-size: 14px;
+    
+}
+.part3{
+    margin-left: 150px;
+   
+}
+.part4{
+    margin-left: 100px;
+}
+.part3 p{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.part4 p{
+    font-size: 17px;
+    font-weight: bold;
+    color: white;
+}
+.part3 ul li{
+    list-style-type: none;
+}
+
+.part4 ul li{
+    list-style-type: none;
+}
+.app{
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.app img{
+    width: 140px;
+}
+/*********.******************** media query*********************** */
+@media All and (max-width:600px)
+{
+    .header{
+        width: 100%;
+        background-position: center;
+        background-size: cover;
+    }
+    .logo{
+        width: 100px;
+        margin-left: -40px;
+    }
+    /* .col-1 h1{
+        font-size: 30px;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .col-1 p{
+        font-size: 20px;
+    }
+    .btn{
+        margin-left: 0px;
+    }  */
+    .ball{
+    height: 90vh;
+    background: radial-gradient(#ffffff, #f7b9b9);
+    padding: 50px 0px;
+    margin-top: 160px;
+    }
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+
+
+
+
